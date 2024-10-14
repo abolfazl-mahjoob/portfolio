@@ -1,0 +1,40 @@
+ul.navbar {
+  width: 100%;
+}
+
+ul.navbar a {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  position: relative;
+  transition: 300ms;
+  position: relative;
+}
+
+ul.navbar a.active {
+  color: var(--first-color);
+}
+
+ul.navbar a::before {
+  transition: 300ms;
+  content: "";
+  width: 7px;
+  height: 62px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(100%);
+  right: 0;
+  background-image: url("/public/active.png");
+  transition-delay: 150ms;
+}
+
+ul.navbar a.active::before {
+  transform: translateY(-50%);
+}
+
+ul.navbar svg {
+  font-size: 1.1rem;
+}

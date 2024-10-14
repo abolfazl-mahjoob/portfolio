@@ -1,0 +1,17 @@
+#hi-sec {
+  border: 1px solid #e5eaec;
+  border-radius: 12px;
+  padding: 7px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+#hi-sec svg {
+  font-size: 1.2rem;
+}
+
+#hi-sec img {
+  border-radius: 100px;
+}

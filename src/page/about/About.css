@@ -1,0 +1,102 @@
+.about p {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+.head-about {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.head-about img {
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.head-about div {
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+
+.head-about div span {
+  font-size: 0.9rem;
+}
+
+.about ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.about ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.8rem;
+}
+
+.about ul li span {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.poem {
+  padding: 15px;
+  border-radius: 10px;
+  background: #00ecb221;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.poem p {
+  position: relative;
+  font-size: 1rem;
+}
+
+.poem span {
+  margin-top: 15px;
+  font-size: 0.7rem;
+}
+
+.poem svg {
+  position: absolute;
+  left: 0;
+  left: 0;
+  font-size: 6rem;
+  color: var(--first-color);
+  transform: translate(-7%, -42%);
+  opacity: 0.2;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 13px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery img:first-child {
+  grid-area: 1 / 1 / 2 / 3;
+  object-fit: cover;
+  object-position: 50% 30%;
+}

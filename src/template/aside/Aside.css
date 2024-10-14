@@ -1,0 +1,19 @@
+aside {
+  background: var(--second-color);
+  border-radius: 20px;
+  color: #fff;
+  width: 100%;
+  max-width: 210px;
+  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-aside {
+  font-size: 0.7rem;
+  padding: 30px 30px 10px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--third-color);
+}
